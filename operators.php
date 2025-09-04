@@ -1,5 +1,5 @@
 <?php
-# (A)
+# (A) Write a program that takes two numbers and displays their:
 $num1 = 5;
 $num2 = 10;
 
@@ -12,12 +12,24 @@ $mod = $num2%$num1;
 echo "The numbers are $num2 and $num1";
 echo "<br>\nThe sum is $sum, difference is $diff, product is $prod, division is $div and modulus is $mod</br>";
 
-# (B)
+# (B) Initialize a variable and apply the following operators step by step:
 $p = $num2 += 2;
 $m = $num2 -= 2;
 $n = $num2 *= 2;
 $d = $num2 /= 2;
 $s =$num2 %= 2;
 
-echo "<br>\nUsing 10(num2) and 2: += : $p, -= : $m, *- : $n, /= : $d and %= : $s</br>"
+echo "<br>\nUsing 10(num2) and 2: += : $p, -= : $m, *- : $n, /= : $d and %= : $s</br>";
+
+# (C) Write a program that checks whether a number is between 1 and 100 and even using logical operators (&&, ||, !).
+$number = 50;
+
+echo "<br>\nChecking if the number {$number} is between 1 and 100 and even:</br>";
+
+
+if ($number >= 1 && $number <= 100 && $number % 2 === 0) {
+    echo "<br>\nResult: true</br>";
+} else {
+    echo "<br>\nResult: false</br>";
+}
 ?>
