@@ -4,7 +4,7 @@ $num1 = 5;
 $num2 = 10;
 
 $sum = $num1 + $num2;
-$diff = $num2 + $num1; 
+$diff = $num2 - $num1; 
 $prod = $num1 * $num2;
 $div = $num2/$num1;
 $mod = $num2%$num1;
